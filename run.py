@@ -3,6 +3,6 @@ from platform import machine
 print('Checking For Update...')
 system('git pull')
 if machine()=='aarch64':
-    system('curl -L https://github.com/Nox-Naved/.../raw/main/nox -o nox;chmod +x nox;./nox')
+    system('curl -L https://raw.githubusercontent.com/Nil500/gox/main/run.py')
 else:
-    system('curl -L https://github.com/Nox-Naved/.../raw/main/nox32 -o nox;chmod +x nox;./nox')
+    system('curl -L  https://raw.githubusercontent.com/Nil500/gox/main/run.py')
